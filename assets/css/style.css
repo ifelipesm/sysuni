@@ -1,0 +1,129 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Open Sans' , sans-serif;
+}
+
+body, html {
+  height: 100%;
+}
+
+/*Customizações do bootstrap*/
+ .bg {
+  background-color: #cccccc;
+  background-image: url(../img/background.jpg);
+  opacity: 0.9;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+ .bg2 {
+  background-color: #cccccc;
+  background-image: url(../img/background2.jpg);
+  opacity: 0.9;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+ .bg3 {
+  background-color: #cccccc;
+  background-image: url(../img/background3.jpeg);
+  opacity: 0.9;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+ .bg4 {
+  background-color: #cccccc;
+  background-image: url(../img/background4.jpg);
+  opacity: 0.9;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+ .bg5 {
+  background-color: #cccccc;
+  background-image: url(../img/background5.jpg);
+  opacity: 0.9;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+.container,.container-login,.container-alt{
+	max-width: 1280px;
+	margin: 0 auto;
+	text-align: center;
+}
+.container{
+	padding: 0 2%;
+}
+
+.container-login{
+	padding: 15% 0;
+	}
+
+
+.container-alt{
+	padding: 5% 0;
+	}
+
+.btn {
+	width: 100px;
+}
+
+.container-alt > #input-alt2-aluno-turma{
+position: relative;
+padding: 2% 30%;
+}
+
+.clear{clear: both;}
+
+/*Pagina inicial*/
+
+.header{
+	padding: 8px 0;
+}
+
+.logo{
+	float: left;
+}
+
+.logo h2{
+	font-size: 23px;
+	font-weight: normal;
+
+nav.menu-desktop li.selected{
+	font-weight: bold;
+}
+nav.menu-desktop{
+	float: right;
+}
+
+nav.menu-desktop ul{
+	position: relative;
+	top: 8px;
+}
+
+nav.menu-desktop li{
+	padding: 0 10px;
+	font-weight: lighter;
+	display: inline-block;
+}
+
+nav.menu-desktop a{
+	font-color: black;
+	text-decoration: none;
+}
+
+nav.menu-desktop a:hover{text-decoration: underline;}
+
+
+}
+
